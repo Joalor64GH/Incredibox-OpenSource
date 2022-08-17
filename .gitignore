@@ -1,0 +1,12 @@
+### Android
+export/release/android/bin/app/build/outputs/apk/debug/
+*.apk
+
+### Visual Studio Code
+# ! means a file should be added regardless of it getting ignored prior.
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!*.code-workspace
